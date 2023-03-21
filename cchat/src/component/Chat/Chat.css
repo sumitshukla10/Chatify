@@ -1,0 +1,89 @@
+.ChatPage{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChatContainer{
+    background-color: white;
+    height: 60%;
+    width: 50%;
+}
+
+.header{
+    background-color: crimson;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header >h2{
+    color: white;
+    margin: 1.2vmax;
+    font-size: 1.5vmax;
+
+}
+
+.header  img{
+  width: 2vmax;
+  height: 2vmax;
+  margin: 2.5vmax;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.header > img:hover{
+    transform: scale(1.2);
+}
+
+.ChatBox{
+  
+  height: 70%;
+  box-sizing: border-box;
+  
+}
+
+.InputBox{
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+#ChatInput{
+    
+    width: 80%;
+    padding: 2vmax;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    background-color: white;
+    font-size: 1.2vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 0.2vmax solid rgb(77, 71, 71);
+}
+
+.SendBtn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: 21%;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.SendBtn:hover{
+    background-color: rgb(141, 6, 33);
+}
+
+.SendBtn >img{
+    width: 3vmax;
+    filter: brightness(100) invert();
+    transition:  all 0.3s;
+}
+
+.SendBtn:hover img{
+    transform: translate(10px);
+}

@@ -1,0 +1,89 @@
+.body{
+    margin: 0;
+}
+@media (max-aspect-ratio: 7/10){
+  .Joincontainer{
+    width: 100%;
+  }
+  .Joincontainer > img{
+    width: 20vmax !important;
+
+}
+
+.Joincontainer > h1{
+    
+    font-size: 6vw !important;
+     font-family: 'Roboto', sans-serif;
+     width: 65vw !important;
+     border-bottom: 0.6vw solid white !important;
+     padding: 3vw !important;
+     
+}
+#JoinInput{
+    width: 65vw !important;
+    padding: 4 vw !important;
+    font-size: 5vw !important;
+    margin: 5vw !important;
+   
+}
+.JoinBtn{
+    width: 65vw !important;
+    padding: 4 vw !important;
+    font-size: 5vw !important;   
+}
+.ChatPage{
+   margin-top: 40vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start !important;
+}
+
+.ChatContainer{
+    background-color: white;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.header{
+   
+    height: 12% !important;
+}
+
+.header >h2{
+  
+    margin: 8vw !important;
+    font-size: 5vw !important;
+
+}
+
+.header  img{
+ 
+  margin: 6vw !important;
+  transform: scale(2) !important;
+}
+.header > img:hover{
+    transform: scale(3.2) !important;
+}
+.ChatBox{
+  
+    height: 80% !important
+}
+    
+.InputBox{
+    height: 10% !important;
+    
+}
+#ChatInput{
+    
+    font-size: 4vw !important;
+    padding: 4vw !important;
+}
+.messageBox{
+    
+    
+    padding: 3vw !important;
+    margin: 3vw !important;
+    border-radius: 1.5vw !important;
+    font-size: 3.8vw !important;
+}
+}
